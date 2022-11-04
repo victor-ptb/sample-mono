@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "dev": "cd apps/app && npm run dev",
+    "build": "cd apps/app && npm run build",
+    "start": "cd apps/app && npm run start",
+    "lint": "cd apps/app && npm run lint"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.0.1"
+  }
+}
